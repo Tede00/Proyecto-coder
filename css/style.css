@@ -692,7 +692,10 @@ footer img{
     height: 2.5rem;
 }
 
-
+.bootstrap{
+    border: .25rem solid black;
+    box-shadow: 0 .25rem .25rem 0 black;
+}
 
 /*MEDIA QUERY. HACIENDO RESPONSIVE 100% A INDEX Y NOSOTROS*/
 @media (max-width: 1024px){
