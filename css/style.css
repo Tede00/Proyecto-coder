@@ -88,17 +88,17 @@ nav :hover{
 }
 
 .img1-inicio{
-    width: 685px;
-    height: 570px;
+    width: 42.8125rem;
+    height: 35.625rem;
 }
 
 .img2-inicio{
-    width: 597px;
-    height: 565px;
+    width: 37.3125rem;
+    height: 35.3125rem;
 }
 
 .section2-inicio{
-    height: 600px;
+    height: 37.5rem;
     margin-top: 1.875rem;
     display: flex;
     justify-content: center;
@@ -108,13 +108,13 @@ nav :hover{
     background-size: cover;
     font-family: "Unlearns";
     text-align: center;
-    font-size: 110px;
+    font-size: 6.875rem;
     font-style: normal;
     font-weight: 500;
-    line-height: 100px;
+    line-height: 6.25rem;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     padding-top: 3.125rem;
-    border-radius: 125px;
+    border-radius: 7.8125rem;
     border: 5px solid #000;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
@@ -122,10 +122,10 @@ nav :hover{
 .section2-inicio span{
     font-family: "Tourney";
     color: #FFF;
-    font-size: 140px;
+    font-size: 8.75rem;
     font-style: normal;
     font-weight: 500;
-    line-height: 120px;
+    line-height: 7.5rem;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
@@ -144,7 +144,7 @@ nav :hover{
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 128px;
+    border-radius: 8rem;
     border: 5px solid #5F4136;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     background-image: url("../assets/img/fondocafe1.jpeg");
@@ -173,7 +173,7 @@ nav :hover{
 /*TIENDA*/
 .titulo{
     width: 100%;
-    height: 495px;
+    height: 30.9375rem;
     background: url("../assets/img/fondo-tienda.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -185,66 +185,66 @@ nav :hover{
 }
 
 .titulo h1{
-    width: 886px;
-    height: 100px;
+    width: 55.375rem;
+    height: 6.25rem;
     color: #000;
     text-align: center;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     font-family: "Sifonn";
-    font-size: 128px;
+    font-size: 8rem;
     font-style: normal;
     font-weight: 700;
-    line-height: 100px; /* 78.125% */
+    line-height: 6.25rem; /* 78.125% */
     text-shadow: -3px -3px 2px #ffffff, 3px 3px 2px #ffffff, -3px 3px 2px #ffffff, 3px -3px 2px #fafafa;
     margin-top: 1.875rem;
 }
 
 .titulo h1 span{
-    width: 808px;
-    height: 120px;
+    width: 50.5rem;
+    height: 7.5rem;
     color: #FFFCFC;
     text-align: center;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     font-family: "Sifonn";
-    font-size: 128px;
+    font-size: 8rem;
     font-style: normal;
-    line-height: 120px; /* 93.75% */
+    line-height: 7.5rem; /* 93.75% */
     letter-spacing: 25.6px;
     font-weight: bolder;
 }
 
 .Tienda{
-    width: 1440px;
+    width: 90rem;
     height: auto;
-    border-radius: 136px;
+    border-radius: 8.5rem;
     border: 5px solid #020202;
     background: #8D8175;
     text-align: center;
-    margin: 50px;
+    margin: 3.125rem;
     
 }
 
 .Tienda h2{
-    width: 557px;
-    height: 273px;
+    width: 34.8125rem;
+    height: 17.0625rem;
     color: #FFF;
     text-align: center;
     font-family: "Sifonn";
-    font-size: 122px;
+    font-size: 7.625rem;
     font-style: normal;
     font-weight: 700;
-    line-height: 120px; /* 125%*/
+    line-height: 7.5rem; /* 125%*/
     letter-spacing: 9.6px;
     margin:3.125rem 0 0 9.375rem;
 }
 
 
 .lista-productos button{
-    border-radius: 80px;
+    border-radius: 5rem;
     border: 2px solid #000;
     background: rgba(143, 96, 96, 0.50);
-    width: 140px;
-    height: 80px;
+    width: 8.75rem;
+    height: 5rem;
 }
 
 .Tienda-principal{
@@ -278,12 +278,12 @@ nav :hover{
 
 /*NOSOTROS*/
 .titulo-nosotros {
-    height: 159px;
+    height: 9.9375rem;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 50%;
-    border-radius: 50px;
+    border-radius: 3.125rem;
     border: 8px solid #000;
     background: #8D8175;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
@@ -291,12 +291,12 @@ nav :hover{
 }
 
 .titulo-nosotros h2{
-    width: 596px;
-    height: 73px;
+    width: 37.25rem;
+    height: 4.5625rem;
     color: #ffffff;
     text-align: center;
     font-family: Sifonn;
-    font-size: 80px;
+    font-size: 5rem;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -313,8 +313,8 @@ nav :hover{
 .container-parrafo{
     display: flex;
     width: 50%;
-    height: 592px;
-    border-radius: 50px;
+    height: 37rem;
+    border-radius: 3.125rem;
     border: 8px solid #000;
     background: #8D8275;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
@@ -324,12 +324,12 @@ nav :hover{
 }
 
 .container-parrafo p{
-    width: 665px;
-    height: 518px;
+    width: 41.5625rem;
+    height: 32.375rem;
     color: #FFF;
     text-align: center;
     font-family: League Spartan;
-    font-size: 40px;
+    font-size: 2.5rem;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -350,10 +350,10 @@ nav :hover{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 20px;
-    width: 667px;
-    height: 592px;
-    border-radius: 50px;
+    gap: 1.25rem;
+    width: 41.6875rem;
+    height: 37rem;
+    border-radius: 3.125rem;
     border: 8px solid #000;
     background: #8D8275;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
@@ -366,8 +366,8 @@ nav :hover{
     align-items: center;
     justify-content: center;
     width: 100%;
-    height: 429px;
-    border-radius: 50px;
+    height: 26.8125rem;
+    border-radius: 3.125rem;
     border: 8px solid #000;
     background: #8D8275;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
@@ -378,7 +378,7 @@ nav :hover{
     color: #FFF;
     text-align: center;
     font-family: League Spartan;
-    font-size: 40px;
+    font-size: 2.5rem;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -388,32 +388,32 @@ nav :hover{
     color: #FFF;
     text-align: center;
     font-family: League Spartan;
-    font-size: 40px;
+    font-size: 2.5rem;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
 }
 
 .datos{
-    width: 591px;
-    height: 77px;
+    width: 36.9375rem;
+    height: 4.8125rem;
     border: 4px solid #000;
     background: #FFFCFC;
-    margin: 0 38px ;
+    margin: 0 2.375rem ;
 }
 
 .input-opinion{
     width: 80% ;
-    height: 174px;
+    height: 10.875rem;
     border: 4px solid #000;
     background: #FFFCFC;
-    margin: 0 75px;
+    margin: 0 4.6875rem;
     font-size: medium;
 }
 
 .boton-enviar{
-    width: 77px;
-    height: 75px;
+    width: 4.8125rem;
+    height: 4.6875rem;
 }
 
 .main-login{
@@ -432,9 +432,9 @@ nav :hover{
     justify-content: center;
     gap: 1.25rem;
     margin: 3.125rem;
-    width: 1096px;
-    height: 789px;
-    border-radius: 50px;
+    width: 68.5rem;
+    height: 49.3125rem;
+    border-radius: 3.125rem;
     border: 8px solid #000;
     background-image: url("../assets/img/fondo-login.PNG");
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
@@ -443,24 +443,24 @@ nav :hover{
 }
 
 .login h1{
-    width: 646px;
-    height: 49px;
+    width: 40.375rem;
+    height: 3.0625rem;
     color: #FFF;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     font-family: League Spartan;
-    font-size: 60px;
+    font-size: 3.75rem;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
 }
 
 .login div form label{
-    width: 447px;
-    height: 49px;
+    width: 27.9375rem;
+    height: 3.0625rem;
     color: #FFF;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     font-family: League Spartan;
-    font-size: 40px;
+    font-size: 2.5rem;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -476,8 +476,8 @@ nav :hover{
 }
 
 .boton-continuar{
-    width: 260px;
-    height: 77px;
+    width: 16.25rem;
+    height: 4.8125rem;
     color: #000000;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     font-family: League Spartan;
@@ -485,8 +485,8 @@ nav :hover{
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    border-radius: 30px;
-    border: 4px solid #000;
+    border-radius: 1.875rem;
+    border: .25rem solid #000;
     background: #ECB528;
 }
 
@@ -494,16 +494,16 @@ nav :hover{
     color: #FFF;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     font-family: League Spartan;
-    font-size: 36px;
+    font-size: 2.25rem;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
 }
 
 .login-section2{
-    width: 499px;
-    height: 96px;
-    border-radius: 50px;
+    width: 31.1875rem;
+    height: 6rem;
+    border-radius: 3.125rem;
     border: 8px solid #000;
     background: url("../assets/img/fondo-login.PNG");
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
@@ -516,13 +516,13 @@ nav :hover{
 }
 
 .login-section2 h2 a{
-    width: 494px;
-    height: 96px;
+    width: 30.875rem;
+    height: 6rem;
     color: #ffffff;
     text-align: center;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     font-family: League Spartan;
-    font-size: 36px;
+    font-size: 2.25rem;
     font-style: normal;
     font-weight: 700;
     line-height: normal;   
@@ -539,20 +539,19 @@ nav :hover{
 }
 
 .titulo-carrito h1{
-    display: ;
-    width: 551px;
-    height: 95px;
-    border-radius: 50px;
+    width: 34.4375rem;
+    height: 5.9375rem;
+    border-radius: 3.125rem;
     border: 4px solid #000;
     background: #8D8175;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-    width: 526px;
-    height: 95px;
+    width: 32.875rem;
+    height: 5.9375rem;
     color: #FFF;
     text-align: center;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     font-family: League Spartan;
-    font-size: 96px;
+    font-size: 6rem;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -575,27 +574,27 @@ nav :hover{
 }
 
 .carrito section ul li img{
-    width: 206px;
-    height: 138px;
+    width: 12.875rem;
+    height: 8.625rem;
 }
 
 .carrito ul li h3{
-    width: 269.206px;
-    height: 46.525px;
+    width: 16.8254rem;
+    height: 2.9078rem;
     color: #FFF;
     text-align: center;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     font-family: League Spartan;
-    font-size: 40px;
+    font-size: 2.5rem;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
 }
 
 .precio-carrito{
-    width: 160px;
-    height: 60px;
-    border-radius: 80px;
+    width: 10rem;
+    height: 3.75rem;
+    border-radius: 5rem;
     border: 2px solid #000;
     background: rgba(143, 96, 96, 0.50);
 }
@@ -605,8 +604,8 @@ nav :hover{
 }
 
 .precio-carrito h4{
-    width: 154px;
-    height: 65px;
+    width: 9.625rem;
+    height: 4.0625rem;
     color: #FFF;
     text-align: center;
     font-family: League Spartan;
@@ -617,9 +616,9 @@ nav :hover{
 }
 
 .carrito h2{
-    width: 426px;
-    height: 63px;
-    border-radius: 50px;
+    width: 26.625rem;
+    height: 3.9375rem;
+    border-radius: 3.125rem;
     border: 4px solid #000;
     background: #8D8175;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
@@ -627,16 +626,16 @@ nav :hover{
     text-align: center;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     font-family: League Spartan;
-    font-size: 50px;
+    font-size: 3.125rem;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
 }
 
 .resumen{
-    width: 426px;
-    height: 274px;
-    border-radius: 50px;
+    width: 26.625rem;
+    height: 17.125rem;
+    border-radius: 3.125rem;
     border: 4px solid #000;
     background: #8D8275;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
@@ -689,8 +688,8 @@ footer{
 }
 
 footer img{
-    width: 40px;
-    height: 40px;
+    width: 2.5rem;
+    height: 2.5rem;
 }
 
 
@@ -711,8 +710,8 @@ footer img{
         font-size: 3.75rem;
     }
     .imagen-conocenos{
-        width: 400px;
-        margin-top: 50px;
+        width: 25rem;
+        margin-top: 3.125rem;
     }
     .section2-nosotros{
         flex-direction: column;
@@ -770,10 +769,10 @@ footer img{
         display: none;
     }
     .section2-inicio{
-        font-size: 80px;
+        font-size: 5rem;
     }
     .section2-inicio span{
-        font-size: 120px;
+        font-size: 7.5rem;
     }
     .section3-inicio{
         flex-direction: column;
