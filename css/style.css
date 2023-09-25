@@ -101,7 +101,7 @@ height: 570px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("../assets/img/Fondo.png");
+    background-image: url("../assets/img/fondo.png");
     background-repeat: no-repeat;
     background-size: cover;
     font-family: "Unlearns";
