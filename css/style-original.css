@@ -1,0 +1,830 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family:"League Spartan";
+    src: url("../assets/fonts/LeagueSpartan-Regular.ttf");
+}
+@font-face {
+    font-family:"Sifonn";
+    src: url("../assets/fonts/SIFONN_BASIC_OUTLINE.otf");
+}
+@font-face {
+    font-family:"Unlearns";
+    src: url("../assets/fonts/unlearn2.ttf");
+}
+@font-face {
+    font-family:"Tourney";
+    src: url("../assets/fonts/Tourney_Condensed-Medium.ttf");
+}
+
+/*HEADER*/
+html{
+    max-height: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+header{
+    background-color: #BFAE9D;
+    min-width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.logo-header{
+    width: 10rem;
+    height: 10rem;
+}
+
+.navbar{
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 1.875rem;
+    text-decoration: none;
+}
+
+nav li a {
+    color: #FFF;
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: League Spartan;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+    padding: 1.7569rem 0 1.6087rem 0;
+}
+
+nav :hover{
+    color: #000;
+}
+/*MAIN*/
+.section1-inicio{
+    border-radius: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: .3125rem solid #5F4136;
+    background-image: url("../assets/img/Fondo-cafe.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img1-inicio{
+    width: 42.8125rem;
+    height: 35.625rem;
+}
+
+.img2-inicio{
+    width: 37.3125rem;
+    height: 35.3125rem;
+}
+
+.section2-inicio{
+    height: 37.5rem;
+    margin-top: 1.875rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../assets/img/fondo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Unlearns";
+    text-align: center;
+    font-size: 6.875rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 6.25rem;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding-top: 3.125rem;
+    border-radius: 7.8125rem;
+    border: 5px solid #000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.section2-inicio span{
+    font-family: "Tourney";
+    color: #FFF;
+    font-size: 8.75rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 7.5rem;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.section3-inicio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section3-inicio div img{
+    margin: 1.875rem ;
+
+}
+
+.enlace{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8rem;
+    border: 5px solid #5F4136;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    background-image: url("../assets/img/fondocafe1.jpeg");
+    background-size: cover;
+    margin: 0 .625rem .625rem .625rem;
+}
+
+
+.enlace a{
+    width: auto;
+    height: auto;
+    padding: 1.25rem;
+    color: #FFF;
+    text-align: center;
+    font-family: "Tourney";
+    font-size: 4.375rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    backdrop-filter: blur(2px);
+    text-decoration: none;
+    border: #000;
+    -webkit-text-stroke: #000 0.05px;
+}
+
+/*TIENDA*/
+.titulo{
+    width: 100%;
+    height: 30.9375rem;
+    background: url("../assets/img/fondo-tienda.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 30%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 0 0 50px 0;
+}
+
+.titulo h1{
+    width: 55.375rem;
+    height: 6.25rem;
+    color: #000;
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: "Sifonn";
+    font-size: 8rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 6.25rem; /* 78.125% */
+    text-shadow: -3px -3px 2px #ffffff, 3px 3px 2px #ffffff, -3px 3px 2px #ffffff, 3px -3px 2px #fafafa;
+    margin-top: 1.875rem;
+}
+
+.titulo h1 span{
+    width: 50.5rem;
+    height: 7.5rem;
+    color: #FFFCFC;
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: "Sifonn";
+    font-size: 8rem;
+    font-style: normal;
+    line-height: 7.5rem; /* 93.75% */
+    letter-spacing: 25.6px;
+    font-weight: bolder;
+}
+
+.Tienda{
+    width: 90rem;
+    height: auto;
+    border-radius: 8.5rem;
+    border: 5px solid #020202;
+    background: #8D8175;
+    text-align: center;
+    margin: 3.125rem;
+    
+}
+
+.Tienda h2{
+    width: 34.8125rem;
+    height: 17.0625rem;
+    color: #FFF;
+    text-align: center;
+    font-family: "Sifonn";
+    font-size: 7.625rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 7.5rem; /* 125%*/
+    letter-spacing: 9.6px;
+    margin:3.125rem 0 0 9.375rem;
+}
+
+
+.lista-productos button{
+    border-radius: 5rem;
+    border: 2px solid #000;
+    background: rgba(143, 96, 96, 0.50);
+    width: 8.75rem;
+    height: 5rem;
+}
+
+.Tienda-principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3.125rem;
+}
+
+.lista-productos{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(3,1fr);
+    margin: 3.125rem;
+    gap: 2.5rem;
+    list-style: none;
+}
+
+.tam-img{
+    width: 15.625rem;
+    height: 15.625rem;
+    border: .3125rem solid black;
+}
+
+.tam-img2{
+    width: 6.25rem;
+    height: 6.25rem;
+    border: .3125rem solid black;
+}
+
+/*NOSOTROS*/
+.titulo-nosotros {
+    height: 9.9375rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    border-radius: 3.125rem;
+    border: 8px solid #000;
+    background: #8D8175;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin: .625rem;
+}
+
+.titulo-nosotros h2{
+    width: 37.25rem;
+    height: 4.5625rem;
+    color: #ffffff;
+    text-align: center;
+    font-family: Sifonn;
+    font-size: 5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-shadow: -2px -2px 1px #ffffff, 2px 2px 1px #ffffff, -2px 2px 1px #ffffff, 2px -2px 1px #ffffff;
+
+}
+
+.container-conocenos{
+    display: flex;
+    flex-direction: row ;
+    justify-content: space-between;
+}
+
+.container-parrafo{
+    display: flex;
+    width: 50%;
+    height: 37rem;
+    border-radius: 3.125rem;
+    border: 8px solid #000;
+    background: #8D8275;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin : 1.25rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-parrafo p{
+    width: 41.5625rem;
+    height: 32.375rem;
+    color: #FFF;
+    text-align: justify;
+    font-family: League Spartan;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.section2-nosotros{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.titulo-newsletter{
+    width: 100%;
+}
+
+.form-newsletter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.25rem;
+    width: 41.6875rem;
+    height: 37rem;
+    border-radius: 3.125rem;
+    border: 8px solid #000;
+    background: #8D8275;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin: 1.25rem;
+}
+
+.opinion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 26.8125rem;
+    border-radius: 3.125rem;
+    border: 8px solid #000;
+    background: #8D8275;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin: 1.25rem;
+}
+
+.form label{
+    color: #FFF;
+    text-align: center;
+    font-family: League Spartan;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.form-newsletter label{
+    color: #FFF;
+    text-align: center;
+    font-family: League Spartan;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.datos{
+    width: 36.9375rem;
+    height: 4.8125rem;
+    border: 4px solid #000;
+    background: #FFFCFC;
+    margin: 0 2.375rem ;
+}
+
+.input-opinion{
+    width: 80% ;
+    height: 10.875rem;
+    border: 4px solid #000;
+    background: #FFFCFC;
+    margin: 0 4.6875rem;
+    font-size: medium;
+}
+
+.boton-enviar{
+    width: 4.8125rem;
+    height: 4.6875rem;
+}
+
+.main-login{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 3.125rem;
+
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.25rem;
+    margin: 3.125rem;
+    width: 68.5rem;
+    height: 49.3125rem;
+    border-radius: 3.125rem;
+    border: 8px solid #000;
+    background-image: url("../assets/img/fondo-login.PNG");
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    background-repeat: no-repeat;
+    background-size: cover ;
+}
+
+.login h1{
+    width: 40.375rem;
+    height: 3.0625rem;
+    color: #FFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: League Spartan;
+    font-size: 3.75rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.login div form label{
+    width: 27.9375rem;
+    height: 3.0625rem;
+    color: #FFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: League Spartan;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.form-login{
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2.5rem;
+}
+
+.boton-continuar{
+    width: 16.25rem;
+    height: 4.8125rem;
+    color: #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: League Spartan;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border-radius: 1.875rem;
+    border: .25rem solid #000;
+    background: #ECB528;
+}
+
+.login div h3{
+    color: #FFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: League Spartan;
+    font-size: 2.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.login-section2{
+    width: 31.1875rem;
+    height: 6rem;
+    border-radius: 3.125rem;
+    border: 8px solid #000;
+    background: url("../assets/img/fondo-login.PNG");
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 3.125rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-section2 h2 a{
+    width: 30.875rem;
+    height: 6rem;
+    color: #ffffff;
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: League Spartan;
+    font-size: 2.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;   
+    text-decoration: none; 
+}
+
+/*CARRITO*/
+
+.titulo-carrito{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 3.125rem
+}
+
+.titulo-carrito h1{
+    width: 34.4375rem;
+    height: 5.9375rem;
+    border-radius: 3.125rem;
+    border: 4px solid #000;
+    background: #8D8175;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    width: 32.875rem;
+    height: 5.9375rem;
+    color: #FFF;
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: League Spartan;
+    font-size: 6rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.carrito{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.carrito section ul{
+    width: 50rem;
+    height: auto;
+    border-radius: 50px;
+    border: 4px solid #000;
+    background: #8D8275;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.carrito section ul li img{
+    width: 12.875rem;
+    height: 8.625rem;
+}
+
+.carrito ul li h3{
+    width: 16.8254rem;
+    height: 2.9078rem;
+    color: #FFF;
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: League Spartan;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.precio-carrito{
+    width: 10rem;
+    height: 3.75rem;
+    border-radius: 5rem;
+    border: 2px solid #000;
+    background: rgba(143, 96, 96, 0.50);
+}
+
+.productos-carrito li{
+    padding: 1.25rem;
+}
+
+.precio-carrito h4{
+    width: 9.625rem;
+    height: 4.0625rem;
+    color: #FFF;
+    text-align: center;
+    font-family: League Spartan;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.carrito h2{
+    width: 26.625rem;
+    height: 3.9375rem;
+    border-radius: 3.125rem;
+    border: 4px solid #000;
+    background: #8D8175;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    color: #FFF;
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: League Spartan;
+    font-size: 3.125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.resumen{
+    width: 26.625rem;
+    height: 17.125rem;
+    border-radius: 3.125rem;
+    border: 4px solid #000;
+    background: #8D8275;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 3.125rem;
+}
+
+.resumen div h3{
+    color: #FFF;
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: League Spartan;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.section2-carrito{
+    display: flex;
+    flex-direction: column;
+    gap: 3.125rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.productos-carrito{
+    display: flex;
+    flex-direction: column;
+    margin: 1.25rem;
+}
+
+.productos-carrito li{
+    display: flex;
+    align-items:center ;
+}
+
+
+/*FOTTER*/
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    background: #C3AF96;
+    margin-top: auto;
+}
+
+footer img{
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.bootstrap{
+    border: .25rem solid black;
+    box-shadow: 0 .25rem .25rem 0 black;
+}
+
+/*MEDIA QUERY. HACIENDO RESPONSIVE 100% A INDEX Y NOSOTROS*/
+@media (max-width: 1024px){
+    header{
+        flex-direction: column;
+    }
+    .navbar{
+        gap: 1.25rem;
+        text-decoration: none;
+    }
+    .section3-inicio{
+        flex-direction: column;
+    }
+    .titulo-nosotros h2{
+        font-size: 3.75rem;
+    }
+    .imagen-conocenos{
+        width: 25rem;
+        margin-top: 3.125rem;
+    }
+    .section2-nosotros{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media (max-width: 768px){
+    header{
+        flex-direction: column;
+    }
+    .navbar{
+        gap: .625rem;
+        text-decoration: none;
+    }
+    nav li a{
+        font-size: 1.5625rem;
+    }
+    nav img{
+        width: 1.5625rem;
+        height: 1.5625rem;
+    }
+    .section1-inicio{
+        display: none;
+    }
+    .section3-inicio{
+        flex-direction: column;
+    }
+    .imagen-conocenos{
+        display: none;
+    }
+    .titulo-nosotros{
+        width: 100%;
+    }
+    .container-parrafo{
+        width: 100%;
+    }
+}
+
+@media (max-width: 425px){
+    header{
+        flex-direction: column;
+    }
+    .navbar{
+        gap: .9375rem;
+        text-decoration: none;
+    }
+    nav li a{
+        font-size: 1.25rem;
+    }
+    nav img{
+        width: 1.25rem;
+        height: 1.25rem;
+    }
+    .section1-inicio{
+        display: none;
+    }
+    .section2-inicio{
+        font-size: 5rem;
+    }
+    .section2-inicio span{
+        font-size: 7.5rem;
+    }
+    .section3-inicio{
+        flex-direction: column;
+    }
+    .section3-inicio div img{
+        width: 18.75rem;
+    }
+    .enlace{
+        width: auto;
+        height: auto;
+    }
+    .enlace h2{
+        height: auto;
+        font-size: 5rem;
+        text-align: center;
+    }
+    .imagen-newsletter{
+        display: none;
+    }
+    .titulo-nosotros h2{
+        font-size: 3.125rem;
+    }
+    .container-parrafo{
+        width: 25rem;
+    }
+    .container-parrafo p{
+        font-size: 1.25rem;
+    }
+    .opinion{
+        width: 25rem;
+    }
+    .opinion label{
+        font-size: 2.1875rem;
+    }
+    .form-newsletter{
+        width: 25rem;
+        height: auto;
+        padding: 1.25rem;
+    }
+    .form-newsletter label{
+        font-size: 1.25rem;
+    }
+    .datos{
+        width: 18.75rem;
+    }
+    .boton-enviar{
+        width: 3.125rem;
+        height: 3.125rem;
+        margin: .3125rem;
+    }
+
+}
