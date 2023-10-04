@@ -1,0 +1,88 @@
+main{
+    .section1-inicio{
+        border-radius: 1px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: .3125rem solid #5F4136;
+        background-image: url("../assets/img/Fondo-cafe.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        .img1-inicio{
+            width: 42.8125rem;
+            height: 35.625rem;
+        }
+        .img2-inicio{
+            width: 37.3125rem;
+            height: 35.3125rem;
+        }
+    }
+    .section2-inicio{
+        height: 37.5rem;
+        margin-top: 1.875rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url("../assets/img/fondo.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-family: "Unlearns";
+        text-align: center;
+        font-size: 6.875rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 6.25rem;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        padding-top: 3.125rem;
+        border-radius: 7.8125rem;
+        border: 5px solid #000;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        span{
+            font-family: "Tourney";
+            color: #FFF;
+            font-size: 8.75rem;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 7.5rem;
+            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        }
+    }
+    .section3-inicio{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        div{
+            img{
+                margin: 1.875rem ;
+            }
+        }
+        .enlace{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 8rem;
+            border: 5px solid #5F4136;
+            box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+            background-image: url("../assets/img/fondocafe1.jpeg");
+            background-size: cover;
+            margin: 0 .625rem .625rem .625rem;
+            a{
+                width: auto;
+                height: auto;
+                padding: 1.25rem;
+                color: #FFF;
+                text-align: center;
+                font-family: "Tourney";
+                font-size: 4.375rem;
+                font-style: normal;
+                font-weight: 600;
+                line-height: normal;
+                backdrop-filter: blur(2px);
+                text-decoration: none;
+                border: #000;
+                -webkit-text-stroke: #000 0.05px;
+            }
+        }
+    }
+}
+

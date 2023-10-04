@@ -1,0 +1,15 @@
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    background: #C3AF96;
+    margin-top: auto;
+    img{
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+}
+.productos-carrito li{
+    display: flex;
+    align-items:center ;
+}
