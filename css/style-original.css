@@ -36,11 +36,14 @@ body{
 }
 
 header{
+    background-color: #BFAE9D;
+    min-width: 100%;
     display: flex;
     flex-direction: column;
     min-height: 100%;
     max-width: 100%;
     overflow-x: hidden;
+}
 
 .logo-header{
     width: 10rem;
@@ -56,7 +59,7 @@ header{
     text-decoration: none;
 }
 
-.navbar li a {
+nav li a {
     color: #FFF;
     text-align: center;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -69,7 +72,7 @@ header{
     padding: 1.7569rem 0 1.6087rem 0;
 }
 
-.navbar :hover{
+nav :hover{
     color: #000;
 }
 /*MAIN*/
@@ -381,7 +384,7 @@ header{
     line-height: normal;
 }
 
-.form-newsletter label{
+/* .form-newsletter label{
     color: #FFF;
     text-align: center;
     font-family: League Spartan;
@@ -389,7 +392,7 @@ header{
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-}
+} */
 
 .datos{
     width: 36.9375rem;
@@ -419,7 +422,6 @@ header{
     justify-content: space-evenly;
     align-items: center;
     gap: 3.125rem;
-
 }
 
 .login {
