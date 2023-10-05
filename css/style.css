@@ -155,6 +155,260 @@ main .section3-inicio .enlace a {
   -webkit-text-stroke: #000 0.05px;
 }
 
+main .titulo-carrito {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 3.125rem;
+}
+main .titulo-carrito h1 {
+  width: 34.4375rem;
+  height: 5.9375rem;
+  border-radius: 3.125rem;
+  border: 4px solid #000;
+  background: #8D8175;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  width: 32.875rem;
+  height: 5.9375rem;
+  color: #FFF;
+  text-align: center;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: League Spartan;
+  font-size: 6rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+main .carrito {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+main .carrito section ul {
+  display: flex;
+  flex-direction: column;
+  margin: 1.25rem;
+  width: 50rem;
+  height: auto;
+  border-radius: 50px;
+  border: 4px solid #000;
+  background: #8D8275;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+main .carrito section ul li {
+  display: flex;
+  align-items: center;
+  padding: 1.25rem;
+}
+main .carrito section ul li img {
+  width: 12.875rem;
+  height: 8.625rem;
+  border: 0.3125rem solid black;
+}
+main .carrito section ul li h3 {
+  width: 16.8254rem;
+  height: 2.9078rem;
+  color: #FFF;
+  text-align: center;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: League Spartan;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+main .carrito section ul li .precio-carrito {
+  width: 10rem;
+  height: 3.75rem;
+  border-radius: 5rem;
+  border: 2px solid #000;
+  background: rgba(143, 96, 96, 0.5);
+}
+main .carrito section ul li .precio-carrito h4 {
+  width: 9.625rem;
+  height: 4.0625rem;
+  color: #FFF;
+  text-align: center;
+  font-family: League Spartan;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-top: 0.625rem;
+}
+main .carrito .section2-carrito {
+  display: flex;
+  flex-direction: column;
+  gap: 3.125rem;
+  justify-content: center;
+  align-items: center;
+}
+main .carrito .section2-carrito h2 {
+  width: 26.625rem;
+  height: 3.9375rem;
+  border-radius: 3.125rem;
+  border: 4px solid #000;
+  background: #8D8175;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  color: #FFF;
+  text-align: center;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: League Spartan;
+  font-size: 3.125rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+main .carrito .section2-carrito .resumen {
+  width: 26.625rem;
+  height: 17.125rem;
+  border-radius: 3.125rem;
+  border: 4px solid #000;
+  background: #8D8275;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin: 3.125rem;
+}
+main .carrito .section2-carrito .resumen div h3 {
+  color: #FFF;
+  text-align: center;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: League Spartan;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+main .carrito .section2-carrito .resumen div a button {
+  width: 16.25rem;
+  height: 4.8125rem;
+  color: #000000;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: League Spartan;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border-radius: 1.875rem;
+  border: 0.25rem solid #000;
+  background: #ECB528;
+}
+
+.main-login {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 3.125rem;
+}
+.main-login .login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.25rem;
+  margin: 3.125rem;
+  width: 68.5rem;
+  height: 49.3125rem;
+  border-radius: 3.125rem;
+  border: 8px solid #000;
+  background-image: url("../assets/img/fondo-login.PNG");
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.main-login .login h1 {
+  width: 40.375rem;
+  height: 3.0625rem;
+  color: #FFF;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: League Spartan;
+  font-size: 3.75rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.main-login .login div form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2.5rem;
+}
+.main-login .login div form label {
+  width: 27.9375rem;
+  height: 3.0625rem;
+  color: #FFF;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: League Spartan;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.main-login .login div form input {
+  width: 36.9375rem;
+  height: 4.8125rem;
+  border: 4px solid #000;
+  background: #FFFCFC;
+  margin: 0 2.375rem;
+}
+.main-login .login div form a input {
+  width: 16.25rem;
+  height: 4.8125rem;
+  color: #000000;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: League Spartan;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border-radius: 1.875rem;
+  border: 0.25rem solid #000;
+  background: #ECB528;
+}
+.main-login .login div h3 {
+  color: #FFF;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: League Spartan;
+  font-size: 2.25rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.main-login .login-section2 {
+  width: 31.1875rem;
+  height: 6rem;
+  border-radius: 3.125rem;
+  border: 8px solid #000;
+  background: url("../assets/img/fondo-login.PNG");
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 3.125rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-login .login-section2 h2 a {
+  width: 30.875rem;
+  height: 6rem;
+  color: #ffffff;
+  text-align: center;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: League Spartan;
+  font-size: 2.25rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration: none;
+}
+
 .main-nosotros .titulo-nosotros {
   height: 9.9375rem;
   display: flex;
@@ -279,6 +533,104 @@ main .section3-inicio .enlace a {
   text-align: center;
   font-family: League Spartan;
   font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+main .titulo {
+  width: 100%;
+  height: 30.9375rem;
+  background: url("../assets/img/fondo-tienda.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 30%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 0 0 50px 0;
+}
+main .titulo h1 {
+  width: 55.375rem;
+  height: 6.25rem;
+  color: #000;
+  text-align: center;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: "Sifonn";
+  font-size: 8rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 6.25rem; /* 78.125% */
+  text-shadow: -3px -3px 2px #ffffff, 3px 3px 2px #ffffff, -3px 3px 2px #ffffff, 3px -3px 2px #fafafa;
+  margin-top: 1.875rem;
+}
+main .titulo h1 span {
+  width: 50.5rem;
+  height: 7.5rem;
+  color: #FFFCFC;
+  text-align: center;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: "Sifonn";
+  font-size: 8rem;
+  font-style: normal;
+  line-height: 7.5rem; /* 93.75% */
+  letter-spacing: 25.6px;
+  font-weight: bolder;
+}
+main .tienda-principal {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 3.125rem;
+}
+main .tienda-principal .tienda {
+  width: 90rem;
+  height: auto;
+  border-radius: 8.5rem;
+  border: 5px solid #020202;
+  background: #8D8175;
+  text-align: center;
+  margin: 3.125rem;
+}
+main .tienda-principal .tienda h2 {
+  width: 34.8125rem;
+  height: 17.0625rem;
+  color: #FFF;
+  text-align: center;
+  font-family: "Sifonn";
+  font-size: 7.625rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 7.5rem; /* 125%*/
+  letter-spacing: 9.6px;
+  margin: 3.125rem 0 0 9.375rem;
+}
+main .tienda-principal .tienda ul {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  margin: 3.125rem;
+  gap: 2.5rem;
+  list-style: none;
+}
+main .tienda-principal .tienda ul li div .tam-img {
+  width: 15.625rem;
+  height: 15.625rem;
+  border: 0.3125rem solid black;
+}
+main .tienda-principal .tienda ul li div button {
+  border-radius: 5rem;
+  border: 2px solid #000;
+  background: rgba(143, 96, 96, 0.5);
+  width: 8.75rem;
+  height: 5rem;
+}
+main .tienda-principal .tienda ul li div h3 {
+  color: #ffffff;
+  text-align: center;
+  font-family: League Spartan;
+  font-size: 2rem;
   font-style: normal;
   font-weight: 700;
   line-height: normal;

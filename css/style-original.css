@@ -213,7 +213,7 @@ nav :hover{
     font-weight: bolder;
 }
 
-.Tienda{
+.tienda{
     width: 90rem;
     height: auto;
     border-radius: 8.5rem;
@@ -270,11 +270,7 @@ nav :hover{
     border: .3125rem solid black;
 }
 
-.tam-img2{
-    width: 6.25rem;
-    height: 6.25rem;
-    border: .3125rem solid black;
-}
+
 
 /*NOSOTROS*/
 .titulo-nosotros {
@@ -577,6 +573,11 @@ nav :hover{
     height: 8.625rem;
 }
 
+.tam-img2{
+    width: 6.25rem;
+    height: 6.25rem;
+    border: .3125rem solid black;
+}
 .carrito ul li h3{
     width: 16.8254rem;
     height: 2.9078rem;
