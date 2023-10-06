@@ -1,0 +1,24 @@
+/*MEDIA QUERY. HACIENDO RESPONSIVE 100% A INDEX Y NOSOTROS*/
+@media (max-width: 1024px){
+    header{
+        flex-direction: column;
+        .navbar{
+            gap: 1.25rem;
+            text-decoration: none;
+        }
+    }
+    .section3-inicio{
+        flex-direction: column;
+    }
+    .titulo-nosotros h2{
+        font-size: 3.75rem;
+    }
+    .imagen-conocenos{
+        width: 25rem;
+        margin-top: 3.125rem;
+    }
+    .section2-nosotros{
+        flex-direction: column;
+        align-items: center;
+    }
+}

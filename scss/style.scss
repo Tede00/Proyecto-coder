@@ -1,10 +1,23 @@
+/*MEDIA*/
+@import "./layout/medias/media-1024";
+@import "./layout/medias/media-768";
+@import "./layout/medias/media-425";
+
+
+
+/*Base*/
 @import "./base/reset";
+
+/*Utilites*/
+@import "./utilities/variables";
+@import "./utilities/mixins";
+
+/*layout*/
 @import "./layout/header";
 @import "./layout/main-index";
-@import "./layout/main-carrito";
 @import "./layout/main-ingreso";
 @import "./layout/main-nosotros";
 @import "./layout/main-tienda";
-
-
+@import "./layout/main-carrito";
 @import "./layout/footer";
+

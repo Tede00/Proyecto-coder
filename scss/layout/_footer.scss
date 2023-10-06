@@ -1,7 +1,5 @@
 footer{
-    display: flex;
-    justify-content: center;
-    align-items: end;
+    @include display-flex(none,center,end);
     background: #C3AF96;
     margin-top: auto;
     img{

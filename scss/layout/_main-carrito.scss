@@ -1,8 +1,6 @@
 main{
     .titulo-carrito{
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
+        @include display-flex(row,center,none);
         margin: 3.125rem;
         h1{
             width: 34.4375rem;
@@ -16,7 +14,7 @@ main{
             color: #FFF;
             text-align: center;
             text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-            font-family: League Spartan;
+            font-family: $fuente-principal;
             font-size: 6rem;
             font-style: normal;
             font-weight: 700;
@@ -24,24 +22,19 @@ main{
         }
     }
     .carrito{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        align-items: center;
+        @include display-flex(row,space-evenly,center);
         section{
             ul{
-                display: flex;
-                flex-direction: column;
+                @include display-flex(column,none,none);
                 margin: 1.25rem;
                 width: 50rem;
                 height: auto;
                 border-radius: 50px;
                 border: 4px solid #000;
-                background: #8D8275;
+                background: $fondo-form;
                 box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
                 li{
-                    display: flex;
-                    align-items:center ;
+                    @include display-flex(none,none,center);
                     padding: 1.25rem;
                     img{
                         width: 12.875rem;
@@ -54,7 +47,7 @@ main{
                         color: #FFF;
                         text-align: center;
                         text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-                        font-family: League Spartan;
+                        font-family: $fuente-principal;
                         font-size: 2.5rem;
                         font-style: normal;
                         font-weight: 400;
@@ -71,7 +64,7 @@ main{
                             height: 4.0625rem;
                             color: #FFF;
                             text-align: center;
-                            font-family: League Spartan;
+                            font-family: $fuente-principal;
                             font-size: 40px;
                             font-style: normal;
                             font-weight: 400;
@@ -83,11 +76,8 @@ main{
             }
         }
         .section2-carrito{
-            display: flex;
-            flex-direction: column;
+            @include display-flex(column,center,center);
             gap: 3.125rem;
-            justify-content: center;
-            align-items: center;
             h2{
                 width: 26.625rem;
                 height: 3.9375rem;
@@ -98,7 +88,7 @@ main{
                 color: #FFF;
                 text-align: center;
                 text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-                font-family: League Spartan;
+                font-family: $fuente-principal;
                 font-size: 3.125rem;
                 font-style: normal;
                 font-weight: 700;
@@ -109,19 +99,16 @@ main{
                 height: 17.125rem;
                 border-radius: 3.125rem;
                 border: 4px solid #000;
-                background: #8D8275;
+                background: $fondo-form;
                 box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-                display: flex;
-                flex-direction: column;
-                justify-content: space-around;
-                align-items: center;
+                @include display-flex(column,space-around,center);
                 margin: 3.125rem;
                 div{
                     h3{
                         color: #FFF;
                         text-align: center;
                         text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-                        font-family: League Spartan;
+                        font-family: $fuente-principal;
                         font-size: 42px;
                         font-style: normal;
                         font-weight: 700;
@@ -133,7 +120,7 @@ main{
                             height: 4.8125rem;
                             color: #000000;
                             text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-                            font-family: League Spartan;
+                            font-family: $fuente-principal;
                             font-size: 40px;
                             font-style: normal;
                             font-weight: 700;

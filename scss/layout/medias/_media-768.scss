@@ -1,0 +1,32 @@
+
+@media (max-width: 768px){
+    header{
+        flex-direction: column;
+    }
+    .navbar{
+        gap: .625rem;
+        text-decoration: none;
+    }
+    nav li a{
+        font-size: 1.5625rem;
+    }
+    nav img{
+        width: 1.5625rem;
+        height: 1.5625rem;
+    }
+    .section1-inicio{
+        display: none;
+    }
+    .section3-inicio{
+        flex-direction: column;
+    }
+    .imagen-conocenos{
+        display: none;
+    }
+    .titulo-nosotros{
+        width: 100%;
+    }
+    .container-parrafo{
+        width: 100%;
+    }
+}

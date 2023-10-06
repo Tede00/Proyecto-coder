@@ -1,3 +1,134 @@
+/*MEDIA*/
+/*MEDIA QUERY. HACIENDO RESPONSIVE 100% A INDEX Y NOSOTROS*/
+@media (max-width: 1024px) {
+  header {
+    flex-direction: column;
+  }
+  header .navbar {
+    gap: 1.25rem;
+    text-decoration: none;
+  }
+  .section3-inicio {
+    flex-direction: column;
+  }
+  .titulo-nosotros h2 {
+    font-size: 3.75rem;
+  }
+  .imagen-conocenos {
+    width: 25rem;
+    margin-top: 3.125rem;
+  }
+  .section2-nosotros {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+  }
+  .navbar {
+    gap: 0.625rem;
+    text-decoration: none;
+  }
+  nav li a {
+    font-size: 1.5625rem;
+  }
+  nav img {
+    width: 1.5625rem;
+    height: 1.5625rem;
+  }
+  .section1-inicio {
+    display: none;
+  }
+  .section3-inicio {
+    flex-direction: column;
+  }
+  .imagen-conocenos {
+    display: none;
+  }
+  .titulo-nosotros {
+    width: 100%;
+  }
+  .container-parrafo {
+    width: 100%;
+  }
+}
+@media (max-width: 425px) {
+  header {
+    flex-direction: column;
+  }
+  .navbar {
+    gap: 0.9375rem;
+    text-decoration: none;
+  }
+  nav li a {
+    font-size: 1.25rem;
+  }
+  nav img {
+    width: 1.25rem;
+    height: 1.25rem;
+  }
+  .section1-inicio {
+    display: none;
+  }
+  .section2-inicio {
+    font-size: 5rem;
+  }
+  .section2-inicio span {
+    font-size: 7.5rem;
+  }
+  .section3-inicio {
+    flex-direction: column;
+  }
+  .section3-inicio div img {
+    width: 18.75rem;
+  }
+  .enlace {
+    width: auto;
+    height: auto;
+  }
+  .enlace h2 {
+    height: auto;
+    font-size: 5rem;
+    text-align: center;
+  }
+  .imagen-newsletter {
+    display: none;
+  }
+  .titulo-nosotros h2 {
+    font-size: 3.125rem;
+  }
+  .container-parrafo {
+    width: 25rem;
+  }
+  .container-parrafo p {
+    font-size: 1.25rem;
+  }
+  .opinion {
+    width: 25rem;
+  }
+  .opinion label {
+    font-size: 2.1875rem;
+  }
+  .form-newsletter {
+    width: 25rem;
+    height: auto;
+    padding: 1.25rem;
+  }
+  .form-newsletter label {
+    font-size: 1.25rem;
+  }
+  .datos {
+    width: 18.75rem;
+  }
+  .boton-enviar {
+    width: 3.125rem;
+    height: 3.125rem;
+    margin: 0.3125rem;
+  }
+}
+/*Base*/
 * {
   margin: 0;
   padding: 0;
@@ -20,6 +151,8 @@
   font-family: "Tourney";
   src: url("../assets/fonts/Tourney_Condensed-Medium.ttf");
 }
+/*Utilites*/
+/*layout*/
 html {
   max-height: 100%;
   max-width: 100%;
@@ -29,6 +162,8 @@ html {
 body {
   display: flex;
   flex-direction: column;
+  justify-content: none;
+  align-items: none;
   min-height: 100%;
   max-width: 100%;
   overflow-x: hidden;
@@ -50,6 +185,8 @@ body header .navbar {
   width: auto;
   display: flex;
   flex-direction: row;
+  justify-content: none;
+  align-items: none;
   list-style: none;
   gap: 1.875rem;
   text-decoration: none;
@@ -74,6 +211,7 @@ nav li a:hover {
 main .section1-inicio {
   border-radius: 1px;
   display: flex;
+  flex-direction: none;
   justify-content: center;
   align-items: center;
   border: 0.3125rem solid #5F4136;
@@ -93,6 +231,7 @@ main .section2-inicio {
   height: 37.5rem;
   margin-top: 1.875rem;
   display: flex;
+  flex-direction: none;
   justify-content: center;
   align-items: center;
   background-image: url("../assets/img/fondo.png");
@@ -121,6 +260,7 @@ main .section2-inicio span {
 }
 main .section3-inicio {
   display: flex;
+  flex-direction: none;
   justify-content: center;
   align-items: center;
 }
@@ -129,6 +269,7 @@ main .section3-inicio div img {
 }
 main .section3-inicio .enlace {
   display: flex;
+  flex-direction: none;
   justify-content: center;
   align-items: center;
   border-radius: 8rem;
@@ -155,149 +296,6 @@ main .section3-inicio .enlace a {
   -webkit-text-stroke: #000 0.05px;
 }
 
-main .titulo-carrito {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  margin: 3.125rem;
-}
-main .titulo-carrito h1 {
-  width: 34.4375rem;
-  height: 5.9375rem;
-  border-radius: 3.125rem;
-  border: 4px solid #000;
-  background: #8D8175;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-  width: 32.875rem;
-  height: 5.9375rem;
-  color: #FFF;
-  text-align: center;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  font-family: League Spartan;
-  font-size: 6rem;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-}
-main .carrito {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
-}
-main .carrito section ul {
-  display: flex;
-  flex-direction: column;
-  margin: 1.25rem;
-  width: 50rem;
-  height: auto;
-  border-radius: 50px;
-  border: 4px solid #000;
-  background: #8D8275;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-}
-main .carrito section ul li {
-  display: flex;
-  align-items: center;
-  padding: 1.25rem;
-}
-main .carrito section ul li img {
-  width: 12.875rem;
-  height: 8.625rem;
-  border: 0.3125rem solid black;
-}
-main .carrito section ul li h3 {
-  width: 16.8254rem;
-  height: 2.9078rem;
-  color: #FFF;
-  text-align: center;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  font-family: League Spartan;
-  font-size: 2.5rem;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-}
-main .carrito section ul li .precio-carrito {
-  width: 10rem;
-  height: 3.75rem;
-  border-radius: 5rem;
-  border: 2px solid #000;
-  background: rgba(143, 96, 96, 0.5);
-}
-main .carrito section ul li .precio-carrito h4 {
-  width: 9.625rem;
-  height: 4.0625rem;
-  color: #FFF;
-  text-align: center;
-  font-family: League Spartan;
-  font-size: 40px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  padding-top: 0.625rem;
-}
-main .carrito .section2-carrito {
-  display: flex;
-  flex-direction: column;
-  gap: 3.125rem;
-  justify-content: center;
-  align-items: center;
-}
-main .carrito .section2-carrito h2 {
-  width: 26.625rem;
-  height: 3.9375rem;
-  border-radius: 3.125rem;
-  border: 4px solid #000;
-  background: #8D8175;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-  color: #FFF;
-  text-align: center;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  font-family: League Spartan;
-  font-size: 3.125rem;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-}
-main .carrito .section2-carrito .resumen {
-  width: 26.625rem;
-  height: 17.125rem;
-  border-radius: 3.125rem;
-  border: 4px solid #000;
-  background: #8D8275;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-  margin: 3.125rem;
-}
-main .carrito .section2-carrito .resumen div h3 {
-  color: #FFF;
-  text-align: center;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  font-family: League Spartan;
-  font-size: 42px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-}
-main .carrito .section2-carrito .resumen div a button {
-  width: 16.25rem;
-  height: 4.8125rem;
-  color: #000000;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  font-family: League Spartan;
-  font-size: 40px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  border-radius: 1.875rem;
-  border: 0.25rem solid #000;
-  background: #ECB528;
-}
-
 .main-login {
   display: flex;
   flex-direction: column;
@@ -308,8 +306,8 @@ main .carrito .section2-carrito .resumen div a button {
 .main-login .login {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   gap: 1.25rem;
   margin: 3.125rem;
   width: 68.5rem;
@@ -321,7 +319,7 @@ main .carrito .section2-carrito .resumen div a button {
   background-repeat: no-repeat;
   background-size: cover;
 }
-.main-login .login h1 {
+.main-login .login h1, .main-login .login div h3, .main-login .login div form a input, .main-login .login div form label {
   width: 40.375rem;
   height: 3.0625rem;
   color: #FFF;
@@ -331,21 +329,19 @@ main .carrito .section2-carrito .resumen div a button {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+  text-decoration: none;
 }
 .main-login .login div form {
   display: flex;
   flex-direction: column;
-  gap: 1.25rem;
   justify-content: center;
   align-items: center;
+  gap: 1.25rem;
   margin-top: 2.5rem;
 }
 .main-login .login div form label {
   width: 27.9375rem;
   height: 3.0625rem;
-  color: #FFF;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  font-family: League Spartan;
   font-size: 2.5rem;
   font-style: normal;
   font-weight: 700;
@@ -362,8 +358,6 @@ main .carrito .section2-carrito .resumen div a button {
   width: 16.25rem;
   height: 4.8125rem;
   color: #000000;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  font-family: League Spartan;
   font-size: 40px;
   font-style: normal;
   font-weight: 700;
@@ -373,9 +367,7 @@ main .carrito .section2-carrito .resumen div a button {
   background: #ECB528;
 }
 .main-login .login div h3 {
-  color: #FFF;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  font-family: League Spartan;
+  text-align: center;
   font-size: 2.25rem;
   font-style: normal;
   font-weight: 700;
@@ -392,6 +384,7 @@ main .carrito .section2-carrito .resumen div a button {
   background-size: cover;
   margin: 3.125rem;
   display: flex;
+  flex-direction: none;
   justify-content: center;
   align-items: center;
 }
@@ -412,6 +405,7 @@ main .carrito .section2-carrito .resumen div a button {
 .main-nosotros .titulo-nosotros {
   height: 9.9375rem;
   display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
   width: 50%;
@@ -437,18 +431,21 @@ main .carrito .section2-carrito .resumen div a button {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
 }
 .main-nosotros .container-conocenos .container-parrafo {
   display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
   width: 50%;
-  height: 37rem;
+  height: 50rem;
   border-radius: 3.125rem;
   border: 8px solid #000;
   background: #8D8275;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   margin: 1.25rem;
-  align-items: center;
-  justify-content: center;
+  padding-bottom: 0.625rem;
 }
 .main-nosotros .container-conocenos .container-parrafo p {
   width: 41.5625rem;
@@ -456,7 +453,7 @@ main .carrito .section2-carrito .resumen div a button {
   color: #FFF;
   text-align: justify;
   font-family: League Spartan;
-  font-size: 2.5rem;
+  font-size: 2.1875rem;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -468,6 +465,7 @@ main .carrito .section2-carrito .resumen div a button {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  align-items: none;
 }
 .main-nosotros .section2-nosotros div form {
   display: flex;
@@ -506,8 +504,8 @@ main .carrito .section2-carrito .resumen div a button {
 .main-nosotros .opinion {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   width: 100%;
   height: 26.8125rem;
   border-radius: 3.125rem;
@@ -546,11 +544,12 @@ main .titulo {
   background-size: cover;
   background-position: 0 30%;
   display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: flex-start;
   margin: 0 0 50px 0;
 }
-main .titulo h1 {
+main .titulo h1, main .titulo .main-login .login div form label, .main-login .login div form main .titulo label, main .titulo .main-login .login div form a input, .main-login .login div form a main .titulo input, main .titulo .main-login .login div h3, .main-login .login div main .titulo h3 {
   width: 55.375rem;
   height: 6.25rem;
   color: #000;
@@ -564,7 +563,7 @@ main .titulo h1 {
   text-shadow: -3px -3px 2px #ffffff, 3px 3px 2px #ffffff, -3px 3px 2px #ffffff, 3px -3px 2px #fafafa;
   margin-top: 1.875rem;
 }
-main .titulo h1 span {
+main .titulo h1 span, main .titulo .main-login .login div form label span, .main-login .login div form main .titulo label span, main .titulo .main-login .login div form a input span, .main-login .login div form a main .titulo input span, main .titulo .main-login .login div h3 span, .main-login .login div main .titulo h3 span {
   width: 50.5rem;
   height: 7.5rem;
   color: #FFFCFC;
@@ -636,8 +635,157 @@ main .tienda-principal .tienda ul li div h3 {
   line-height: normal;
 }
 
+main .titulo-carrito {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: none;
+  margin: 3.125rem;
+}
+main .titulo-carrito h1, main .titulo-carrito .main-login .login div form label, .main-login .login div form main .titulo-carrito label, main .titulo-carrito .main-login .login div form a input, .main-login .login div form a main .titulo-carrito input, main .titulo-carrito .main-login .login div h3, .main-login .login div main .titulo-carrito h3 {
+  width: 34.4375rem;
+  height: 5.9375rem;
+  border-radius: 3.125rem;
+  border: 4px solid #000;
+  background: #8D8175;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  width: 32.875rem;
+  height: 5.9375rem;
+  color: #FFF;
+  text-align: center;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: League Spartan;
+  font-size: 6rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+main .carrito {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+main .carrito section ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: none;
+  align-items: none;
+  margin: 1.25rem;
+  width: 50rem;
+  height: auto;
+  border-radius: 50px;
+  border: 4px solid #000;
+  background: #8D8275;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+main .carrito section ul li {
+  display: flex;
+  flex-direction: none;
+  justify-content: none;
+  align-items: center;
+  padding: 1.25rem;
+}
+main .carrito section ul li img {
+  width: 12.875rem;
+  height: 8.625rem;
+  border: 0.3125rem solid black;
+}
+main .carrito section ul li h3 {
+  width: 16.8254rem;
+  height: 2.9078rem;
+  color: #FFF;
+  text-align: center;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: League Spartan;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+main .carrito section ul li .precio-carrito {
+  width: 10rem;
+  height: 3.75rem;
+  border-radius: 5rem;
+  border: 2px solid #000;
+  background: rgba(143, 96, 96, 0.5);
+}
+main .carrito section ul li .precio-carrito h4 {
+  width: 9.625rem;
+  height: 4.0625rem;
+  color: #FFF;
+  text-align: center;
+  font-family: League Spartan;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-top: 0.625rem;
+}
+main .carrito .section2-carrito {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3.125rem;
+}
+main .carrito .section2-carrito h2 {
+  width: 26.625rem;
+  height: 3.9375rem;
+  border-radius: 3.125rem;
+  border: 4px solid #000;
+  background: #8D8175;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  color: #FFF;
+  text-align: center;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: League Spartan;
+  font-size: 3.125rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+main .carrito .section2-carrito .resumen {
+  width: 26.625rem;
+  height: 17.125rem;
+  border-radius: 3.125rem;
+  border: 4px solid #000;
+  background: #8D8275;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin: 3.125rem;
+}
+main .carrito .section2-carrito .resumen div h3 {
+  color: #FFF;
+  text-align: center;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: League Spartan;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+main .carrito .section2-carrito .resumen div a button {
+  width: 16.25rem;
+  height: 4.8125rem;
+  color: #000000;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: League Spartan;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border-radius: 1.875rem;
+  border: 0.25rem solid #000;
+  background: #ECB528;
+}
+
 footer {
   display: flex;
+  flex-direction: none;
   justify-content: center;
   align-items: end;
   background: #C3AF96;
