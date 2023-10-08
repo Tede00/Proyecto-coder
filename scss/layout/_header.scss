@@ -8,7 +8,8 @@ body{
         min-height: 100%;
         max-width: 100%;
         overflow-x: hidden;
-        header{
+}
+header{
             background-color: #BFAE9D;
             min-width: 100%;
             @include display-flex(row,center,center);
@@ -24,7 +25,6 @@ body{
                 gap: 1.875rem;
                 text-decoration: none;
             }
-        }
     }
 
 nav{

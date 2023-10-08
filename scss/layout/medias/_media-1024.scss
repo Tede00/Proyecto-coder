@@ -1,6 +1,7 @@
 /*MEDIA QUERY. HACIENDO RESPONSIVE 100% A INDEX Y NOSOTROS*/
 @media (max-width: 1024px){
     header{
+        display: flex;
         flex-direction: column;
         .navbar{
             gap: 1.25rem;
@@ -10,15 +11,39 @@
     .section3-inicio{
         flex-direction: column;
     }
-    .titulo-nosotros h2{
-        font-size: 3.75rem;
+    .main-nosotros {
+        .titulo-nosotros {
+            h2{
+                font-size: 3.75rem;
+            }
+        }
+        .container-conocenos{
+            .container-parrafo{
+                height: 56.25rem;
+                p{
+                    font-size: 2rem;
+                    margin: 1.25rem;
+                }
+            }
+        }
+        .section2-nosotros{
+            flex-direction: column;
+            align-items: center;
+        }
     }
     .imagen-conocenos{
         width: 25rem;
         margin-top: 3.125rem;
     }
-    .section2-nosotros{
-        flex-direction: column;
-        align-items: center;
+    .main-login{
+        .login{
+            width: 50rem;
+            height: 61.25rem;
+        }
+    }
+    main{
+        .carrito{
+            flex-direction: column;
+        }
     }
 }

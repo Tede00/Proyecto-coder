@@ -1,133 +1,3 @@
-/*MEDIA*/
-/*MEDIA QUERY. HACIENDO RESPONSIVE 100% A INDEX Y NOSOTROS*/
-@media (max-width: 1024px) {
-  header {
-    flex-direction: column;
-  }
-  header .navbar {
-    gap: 1.25rem;
-    text-decoration: none;
-  }
-  .section3-inicio {
-    flex-direction: column;
-  }
-  .titulo-nosotros h2 {
-    font-size: 3.75rem;
-  }
-  .imagen-conocenos {
-    width: 25rem;
-    margin-top: 3.125rem;
-  }
-  .section2-nosotros {
-    flex-direction: column;
-    align-items: center;
-  }
-}
-@media (max-width: 768px) {
-  header {
-    flex-direction: column;
-  }
-  .navbar {
-    gap: 0.625rem;
-    text-decoration: none;
-  }
-  nav li a {
-    font-size: 1.5625rem;
-  }
-  nav img {
-    width: 1.5625rem;
-    height: 1.5625rem;
-  }
-  .section1-inicio {
-    display: none;
-  }
-  .section3-inicio {
-    flex-direction: column;
-  }
-  .imagen-conocenos {
-    display: none;
-  }
-  .titulo-nosotros {
-    width: 100%;
-  }
-  .container-parrafo {
-    width: 100%;
-  }
-}
-@media (max-width: 425px) {
-  header {
-    flex-direction: column;
-  }
-  .navbar {
-    gap: 0.9375rem;
-    text-decoration: none;
-  }
-  nav li a {
-    font-size: 1.25rem;
-  }
-  nav img {
-    width: 1.25rem;
-    height: 1.25rem;
-  }
-  .section1-inicio {
-    display: none;
-  }
-  .section2-inicio {
-    font-size: 5rem;
-  }
-  .section2-inicio span {
-    font-size: 7.5rem;
-  }
-  .section3-inicio {
-    flex-direction: column;
-  }
-  .section3-inicio div img {
-    width: 18.75rem;
-  }
-  .enlace {
-    width: auto;
-    height: auto;
-  }
-  .enlace h2 {
-    height: auto;
-    font-size: 5rem;
-    text-align: center;
-  }
-  .imagen-newsletter {
-    display: none;
-  }
-  .titulo-nosotros h2 {
-    font-size: 3.125rem;
-  }
-  .container-parrafo {
-    width: 25rem;
-  }
-  .container-parrafo p {
-    font-size: 1.25rem;
-  }
-  .opinion {
-    width: 25rem;
-  }
-  .opinion label {
-    font-size: 2.1875rem;
-  }
-  .form-newsletter {
-    width: 25rem;
-    height: auto;
-    padding: 1.25rem;
-  }
-  .form-newsletter label {
-    font-size: 1.25rem;
-  }
-  .datos {
-    width: 18.75rem;
-  }
-  .boton-enviar {
-    width: 3.125rem;
-    height: 3.125rem;
-    margin: 0.3125rem;
-  }
-}
 /*Base*/
 * {
   margin: 0;
@@ -168,7 +38,8 @@ body {
   max-width: 100%;
   overflow-x: hidden;
 }
-body header {
+
+header {
   background-color: #BFAE9D;
   min-width: 100%;
   display: flex;
@@ -177,11 +48,11 @@ body header {
   align-items: center;
   list-style: none;
 }
-body header .logo-header {
+header .logo-header {
   width: 10rem;
   height: 10rem;
 }
-body header .navbar {
+header .navbar {
   width: auto;
   display: flex;
   flex-direction: row;
@@ -437,7 +308,7 @@ main .section3-inicio .enlace a {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-items: center;
+  align-items: start;
   width: 50%;
   height: 50rem;
   border-radius: 3.125rem;
@@ -459,7 +330,7 @@ main .section3-inicio .enlace a {
   line-height: normal;
 }
 .main-nosotros .titulo-newsletter {
-  width: 100%;
+  width: 98%;
 }
 .main-nosotros .section2-nosotros {
   display: flex;
@@ -506,7 +377,6 @@ main .section3-inicio .enlace a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 100%;
   height: 26.8125rem;
   border-radius: 3.125rem;
   border: 8px solid #000;
@@ -834,6 +704,217 @@ footer {
 footer img {
   width: 2.5rem;
   height: 2.5rem;
+}
+
+/*MEDIA*/
+/*MEDIA QUERY. HACIENDO RESPONSIVE 100% A INDEX Y NOSOTROS*/
+@media (max-width: 1024px) {
+  header {
+    display: flex;
+    flex-direction: column;
+  }
+  header .navbar {
+    gap: 1.25rem;
+    text-decoration: none;
+  }
+  .section3-inicio {
+    flex-direction: column;
+  }
+  .main-nosotros .titulo-nosotros h2 {
+    font-size: 3.75rem;
+  }
+  .main-nosotros .container-conocenos .container-parrafo {
+    height: 56.25rem;
+  }
+  .main-nosotros .container-conocenos .container-parrafo p {
+    font-size: 2rem;
+    margin: 1.25rem;
+  }
+  .main-nosotros .section2-nosotros {
+    flex-direction: column;
+    align-items: center;
+  }
+  .imagen-conocenos {
+    width: 25rem;
+    margin-top: 3.125rem;
+  }
+  .main-login .login {
+    width: 50rem;
+    height: 61.25rem;
+  }
+  main .carrito {
+    flex-direction: column;
+  }
+}
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+  }
+  header .navbar {
+    gap: 2.5rem;
+    text-decoration: none;
+  }
+  header nav li a {
+    font-size: 1.5625rem;
+  }
+  header nav img {
+    width: 1.5625rem;
+    height: 1.5625rem;
+  }
+  .main-nosotros .titulo-nosotros {
+    width: 98%;
+  }
+  .main-nosotros .container-conocenos .container-parrafo {
+    height: 56.25rem;
+    width: 98%;
+    align-items: center;
+  }
+  .main-nosotros .container-conocenos .container-parrafo p {
+    font-size: 2rem;
+    margin: 1.25rem;
+  }
+  main .section1-inicio {
+    display: none;
+  }
+  main .section3-inicio {
+    flex-direction: column;
+  }
+  main .imagen-conocenos {
+    display: none;
+  }
+  main .titulo-nosotros {
+    width: 100%;
+  }
+  .main-login .login {
+    width: 600px;
+  }
+  .main-login .login h1, .main-login .login div form label, .main-login .login div form a input, .main-login .login div h3 {
+    width: auto;
+  }
+  .main-login .login div form input {
+    width: 25rem;
+  }
+}
+@media (max-width: 425px) {
+  header {
+    flex-direction: column;
+  }
+  header .navbar {
+    gap: 0.9375rem;
+    text-decoration: none;
+  }
+  header nav li a {
+    font-size: 1.25rem;
+  }
+  header nav img {
+    width: 1.25rem;
+    height: 1.25rem;
+  }
+  main .section1-inicio {
+    display: none;
+  }
+  main .section2-inicio {
+    font-size: 5rem;
+  }
+  main .section2-inicio span {
+    font-size: 7.5rem;
+  }
+  main .section3-inicio {
+    flex-direction: column;
+  }
+  main .section3-inicio div img {
+    width: 18.75rem;
+  }
+  main .enlace {
+    width: auto;
+    height: auto;
+  }
+  main .enlace h2 {
+    height: auto;
+    font-size: 5rem;
+    text-align: center;
+  }
+  .main-nosotros .titulo-nosotros {
+    width: 95%;
+  }
+  .main-nosotros .titulo-nosotros h2 {
+    font-size: 3.125rem;
+  }
+  .main-nosotros .container-conocenos {
+    width: 94%;
+  }
+  .main-nosotros .container-conocenos .container-parrafo {
+    height: 37.5rem;
+    align-items: center;
+  }
+  .main-nosotros .container-conocenos .container-parrafo p {
+    font-size: 1.25rem;
+    margin: 1.25rem;
+  }
+  .main-nosotros .section2-nosotros .imagen-newsletter {
+    display: none;
+  }
+  .main-nosotros .section2-nosotros div form {
+    width: 25rem;
+  }
+  .main-nosotros .section2-nosotros div form label {
+    font-size: 1.5625rem;
+  }
+  .main-nosotros .section2-nosotros div form .datos {
+    width: 18.75rem;
+  }
+  .main-nosotros .section2-nosotros div form .boton-enviar {
+    width: 3.125rem;
+    height: 3.125rem;
+    margin: 0.3125rem;
+  }
+  .main-nosotros .opinion {
+    width: 92%;
+  }
+  .main-nosotros .opinion label {
+    font-size: 1.5625rem;
+    margin: 1.5625rem;
+  }
+  .main-nosotros .opinion .input-opinion {
+    height: 6.25rem;
+  }
+  .main-nosotros .opinion .boton-enviar {
+    width: 3.125rem;
+    height: 3.125rem;
+    margin: 1.5625rem;
+  }
+  main .titulo-carrito h1, main .titulo-carrito .main-login .login div form label, .main-login .login div form main .titulo-carrito label, main .titulo-carrito .main-login .login div form a input, .main-login .login div form a main .titulo-carrito input, main .titulo-carrito .main-login .login div h3, .main-login .login div main .titulo-carrito h3 {
+    font-size: 64px;
+    padding: 0.9375rem;
+  }
+  main .carrito section ul {
+    width: 25rem;
+  }
+  main .carrito section ul li {
+    flex-direction: column;
+    margin: 2.5rem;
+  }
+  main .carrito .section2-carrito h2 {
+    width: 25rem;
+  }
+  main .carrito .section2-carrito .resumen {
+    width: 25rem;
+  }
+  .main-login .login {
+    width: 25rem;
+  }
+  .main-login .login h1, .main-login .login div form label, .main-login .login div form a input, .main-login .login div h3 {
+    font-size: 2rem;
+  }
+  .main-login .login div form input {
+    width: 300px;
+  }
+  .main-login .login-section2 {
+    width: 25rem;
+  }
+  .main-login .login-section2 h2 {
+    text-align: center;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
