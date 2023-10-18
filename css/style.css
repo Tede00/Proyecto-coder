@@ -273,6 +273,30 @@ main .section3-inicio .enlace a {
   text-decoration: none;
 }
 
+.main-nosotros .principal-nosotros {
+  width: 98%;
+  height: 12rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3.125rem;
+  border: 8px solid #000;
+  background: #8D8175;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  margin: 0.625rem;
+}
+.main-nosotros .principal-nosotros h1, .main-nosotros .principal-nosotros .main-login .login div form label, .main-login .login div form .main-nosotros .principal-nosotros label, .main-nosotros .principal-nosotros .main-login .login div form a input, .main-login .login div form a .main-nosotros .principal-nosotros input, .main-nosotros .principal-nosotros .main-login .login div h3, .main-login .login div .main-nosotros .principal-nosotros h3 {
+  width: 37.25rem;
+  height: 4.5625rem;
+  color: #ffffff;
+  text-align: center;
+  font-family: Sifonn;
+  font-size: 7rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
 .main-nosotros .titulo-nosotros {
   height: 9.9375rem;
   display: flex;
@@ -459,7 +483,7 @@ main .tienda-principal {
   gap: 3.125rem;
 }
 main .tienda-principal .tienda {
-  width: 90rem;
+  width: 98%;
   height: auto;
   border-radius: 8.5rem;
   border: 5px solid #020202;
@@ -745,6 +769,9 @@ footer img {
   main .carrito {
     flex-direction: column;
   }
+  main .tienda-principal .tienda h2 {
+    margin: 3.125rem 0 0 6.25rem;
+  }
 }
 @media (max-width: 768px) {
   header {
@@ -793,6 +820,13 @@ footer img {
   }
   .main-login .login div form input {
     width: 25rem;
+  }
+  main .titulo h1, main .titulo .main-login .login div form label, .main-login .login div form main .titulo label, main .titulo .main-login .login div form a input, .main-login .login div form a main .titulo input, main .titulo .main-login .login div h3, .main-login .login div main .titulo h3 {
+    font-size: 6rem;
+  }
+  main .tienda-principal .tienda h2 {
+    margin: 3.125rem 0 0 6.25rem;
+    font-size: 5rem;
   }
 }
 @media (max-width: 425px) {
@@ -914,6 +948,42 @@ footer img {
   }
   .main-login .login-section2 h2 {
     text-align: center;
+  }
+  main .titulo {
+    height: 12.5rem;
+  }
+  main .titulo h1, main .titulo .main-login .login div form label, .main-login .login div form main .titulo label, main .titulo .main-login .login div form a input, .main-login .login div form a main .titulo input, main .titulo .main-login .login div h3, .main-login .login div main .titulo h3 {
+    margin-top: 0;
+    font-size: 3rem;
+  }
+  main .titulo h1 span, main .titulo .main-login .login div form label span, .main-login .login div form main .titulo label span, main .titulo .main-login .login div form a input span, .main-login .login div form a main .titulo input span, main .titulo .main-login .login div h3 span, .main-login .login div main .titulo h3 span {
+    letter-spacing: 0;
+    line-height: 0;
+    font-size: 4rem;
+  }
+  main .tienda-principal .tienda {
+    margin-bottom: 1.25rem;
+  }
+  main .tienda-principal .tienda h2 {
+    height: 6.25rem;
+    font-size: 2rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  main .tienda-principal .tienda ul li div .tam-img {
+    width: 6.25rem;
+    height: 6.25rem;
+  }
+  main .tienda-principal .tienda ul li div h3 {
+    font-size: 1rem;
+  }
+  main .tienda-principal .tienda ul li div button {
+    width: 6.25rem;
+    height: 3.125rem;
+  }
+  main .tienda-principal .tienda ul li div button img {
+    width: 2.1875rem;
   }
 }
 
