@@ -1,4 +1,4 @@
-# Proyecto Coffeland
+# Proyecto Coffeeland
 ## Desarrollo Web
 > Este proyecto apunta a crear un sitio web E-commerce orientado a la venta de tanto inusmos, equipos y demas articulos relacionados al cafe.
 
